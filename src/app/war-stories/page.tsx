@@ -38,7 +38,7 @@ export default async function WarStoriesPage() {
                   >
                     <div className="flex justify-between items-start">
                       <div>
-                        <h2 className="text-xl font-semibold text-[#4b3621] mb-2" style={{ fontFamily: 'Georgia, serif' }}>
+                        <h2 className="text-xl font-semibold text-[#1e3a5f] mb-2" style={{ fontFamily: 'Georgia, serif' }}>
                           {story.meta.title}
                         </h2>
                         {story.meta.author && (
@@ -60,7 +60,7 @@ export default async function WarStoriesPage() {
             )}
 
             {/* Call to Action */}
-            <div className="mt-12 bg-[#4b3621] text-[#f5f5dc] p-8 text-center">
+            <div className="mt-12 bg-[#1e3a5f] text-[#f5f5dc] p-8 text-center">
               <h3 className="text-2xl font-semibold mb-4" style={{ fontFamily: 'Georgia, serif' }}>
                 Do You Have a Story to Share?
               </h3>

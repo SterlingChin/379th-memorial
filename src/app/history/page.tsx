@@ -28,7 +28,7 @@ export default async function HistoryPage() {
             <div className="bg-white p-8 md:p-12 shadow-md">
               {content ? (
                 <article
-                  className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-[#4b3621] prose-a:text-[#1e3a5f] prose-strong:text-[#4b3621]"
+                  className="prose prose-lg max-w-none prose-headings:font-serif prose-headings:text-[#1e3a5f] prose-a:text-[#1e3a5f] prose-strong:text-[#1e3a5f]"
                   dangerouslySetInnerHTML={{ __html: content.content }}
                 />
               ) : (
@@ -40,7 +40,7 @@ export default async function HistoryPage() {
             <div className="mt-12 grid md:grid-cols-2 gap-6">
               <Link
                 href="/history/grand-slam"
-                className="bg-[#4b3621] text-[#f5f5dc] p-6 hover:bg-[#5c4a2e] transition-colors"
+                className="bg-[#1e3a5f] text-[#f5f5dc] p-6 hover:bg-[#2c5282] transition-colors"
               >
                 <h3 className="text-xl font-semibold mb-2" style={{ fontFamily: 'Georgia, serif' }}>
                   The Grand Slam

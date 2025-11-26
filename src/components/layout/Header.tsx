@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <header className="bg-[#1e3a5f] text-[#f5f5dc] shadow-lg">
       {/* Top bar with Triangle K */}
-      <div className="bg-[#4b3621] py-2">
+      <div className="bg-[#152d4a] py-2">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <span className="text-sm tracking-wider">MIGHTY 8TH AIR FORCE</span>
           <span className="text-sm tracking-wider">1ST BOMBARDMENT DIVISION</span>

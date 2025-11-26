@@ -27,7 +27,7 @@ export default function CrewPage() {
           <div className="max-w-4xl mx-auto">
             {/* Search Box */}
             <div className="bg-white p-8 shadow-md mb-8">
-              <h2 className="text-2xl font-semibold mb-6 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Search Crew Database
               </h2>
               <div className="flex gap-4">
@@ -50,7 +50,7 @@ export default function CrewPage() {
             </div>
 
             {/* Squadrons */}
-            <h2 className="text-2xl font-semibold mb-6 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+            <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
               Browse by Squadron
             </h2>
             <div className="grid md:grid-cols-2 gap-6 mb-12">
@@ -69,7 +69,7 @@ export default function CrewPage() {
                       <span className="text-[#d4a017] font-bold">{squadron.id.slice(0, 3)}</span>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+                      <h3 className="font-semibold text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                         {squadron.name}
                       </h3>
                       <p className="text-sm text-[#666]">View crew members →</p>
@@ -80,7 +80,7 @@ export default function CrewPage() {
             </div>
 
             {/* Crew Positions */}
-            <h2 className="text-2xl font-semibold mb-6 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+            <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
               Crew Positions
             </h2>
             <div className="bg-white p-8 shadow-md mb-12">
@@ -109,7 +109,7 @@ export default function CrewPage() {
             </div>
 
             {/* Looking For */}
-            <div className="bg-[#4b3621] text-[#f5f5dc] p-8">
+            <div className="bg-[#1e3a5f] text-[#f5f5dc] p-8">
               <h2 className="text-2xl font-semibold mb-4" style={{ fontFamily: 'Georgia, serif' }}>
                 Looking for Someone?
               </h2>

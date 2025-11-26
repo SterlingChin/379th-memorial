@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-[#1e3a5f] text-[#f5f5dc]">
       {/* Squadron patches row */}
-      <div className="bg-[#4b3621] py-4">
+      <div className="bg-[#152d4a] py-4">
         <div className="container mx-auto px-4">
           <div className="flex justify-center items-center gap-8 text-sm">
             <span>524th BS</span>

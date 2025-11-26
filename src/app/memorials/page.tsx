@@ -28,7 +28,7 @@ export default function MemorialsPage() {
 
             {/* Heritage Monument - Savannah */}
             <div className="bg-white p-8 shadow-md">
-              <h2 className="text-2xl font-semibold mb-4 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Mighty 8th Heritage Monument
               </h2>
               <p className="text-sm text-[#d4a017] mb-4">Dedicated September 20, 1997</p>
@@ -44,7 +44,7 @@ export default function MemorialsPage() {
                 weighs <strong>7,081 pounds</strong> and is set on a 2,400-pound subterranean concrete base.
               </p>
               <div className="bg-[#e8e8d0] p-4 mb-4">
-                <h3 className="font-semibold text-[#4b3621] mb-2">Monument Features:</h3>
+                <h3 className="font-semibold text-[#1e3a5f] mb-2">Monument Features:</h3>
                 <ul className="text-sm text-[#666] space-y-1">
                   <li>• Triangle K on the top</li>
                   <li>• Two B-17s etched into each of the two faces</li>
@@ -66,7 +66,7 @@ export default function MemorialsPage() {
 
             {/* Lewis Lyle Plaque */}
             <div className="bg-white p-8 shadow-md">
-              <h2 className="text-2xl font-semibold mb-4 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Plaque to Lewis E. Lyle
               </h2>
               <p className="text-sm text-[#d4a017] mb-4">Dedicated 2008</p>
@@ -82,7 +82,7 @@ export default function MemorialsPage() {
 
             {/* Chapel Window */}
             <div className="bg-white p-8 shadow-md">
-              <h2 className="text-2xl font-semibold mb-4 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Chapel of the Fallen Eagles Window
               </h2>
               <p className="text-sm text-[#d4a017] mb-4">Installed 2009</p>
@@ -104,20 +104,20 @@ export default function MemorialsPage() {
 
             {/* Kimbolton */}
             <div className="bg-white p-8 shadow-md">
-              <h2 className="text-2xl font-semibold mb-4 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Kimbolton Memorials, England
               </h2>
               <div className="space-y-4 text-[#666]">
                 <div>
-                  <h3 className="font-semibold text-[#4b3621]">Kimbolton Airfield Monument</h3>
+                  <h3 className="font-semibold text-[#1e3a5f]">Kimbolton Airfield Monument</h3>
                   <p className="text-sm">At the entrance to the old airbase</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[#4b3621]">Kimbolton Plaque</h3>
+                  <h3 className="font-semibold text-[#1e3a5f]">Kimbolton Plaque</h3>
                   <p className="text-sm">Commemorating the 379th&apos;s service</p>
                 </div>
                 <div>
-                  <h3 className="font-semibold text-[#4b3621]">St. Andrew&apos;s Church</h3>
+                  <h3 className="font-semibold text-[#1e3a5f]">St. Andrew&apos;s Church</h3>
                   <p className="text-sm">Kimbolton village church where soil was gathered for the Heritage Monument</p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function MemorialsPage() {
 
             {/* Preston's Pride */}
             <div className="bg-white p-8 shadow-md">
-              <h2 className="text-2xl font-semibold mb-4 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Preston&apos;s Pride - B-17G Triangle K
               </h2>
               <p className="text-[#666] leading-relaxed">
@@ -142,7 +142,7 @@ export default function MemorialsPage() {
 
             {/* USAF Academy */}
             <div className="bg-white p-8 shadow-md">
-              <h2 className="text-2xl font-semibold mb-4 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 USAF Academy Plaque
               </h2>
               <p className="text-[#666] leading-relaxed">
@@ -155,7 +155,7 @@ export default function MemorialsPage() {
 
             {/* National Museum */}
             <div className="bg-white p-8 shadow-md">
-              <h2 className="text-2xl font-semibold mb-4 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 National Museum of the Air Force Memorial
               </h2>
               <p className="text-sm text-[#d4a017] mb-4">Installed August 29, 1980 • Refurbished 2010</p>
@@ -171,7 +171,7 @@ export default function MemorialsPage() {
 
             {/* Cathedral of the Pines */}
             <div className="bg-white p-8 shadow-md">
-              <h2 className="text-2xl font-semibold mb-4 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Cathedral of the Pines
               </h2>
               <p className="text-[#666] leading-relaxed">
@@ -184,7 +184,7 @@ export default function MemorialsPage() {
 
             {/* Hill AFB */}
             <div className="bg-white p-8 shadow-md">
-              <h2 className="text-2xl font-semibold mb-4 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-4 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Hill AFB Chapel Banner
               </h2>
               <p className="text-sm text-[#d4a017] mb-4">Approved at Salt Lake City reunion, 2003</p>
@@ -200,7 +200,7 @@ export default function MemorialsPage() {
             </div>
 
             {/* Taps Link */}
-            <div className="bg-[#4b3621] text-[#f5f5dc] p-8">
+            <div className="bg-[#1e3a5f] text-[#f5f5dc] p-8">
               <h2 className="text-2xl font-semibold mb-4" style={{ fontFamily: 'Georgia, serif' }}>
                 Taps - In Memoriam
               </h2>

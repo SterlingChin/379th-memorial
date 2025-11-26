@@ -27,7 +27,7 @@ export default function AircraftPage() {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="bg-white p-8 shadow-md mb-8">
-              <h2 className="text-2xl font-semibold mb-6 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Boeing B-17 Flying Fortress
               </h2>
               <div className="grid md:grid-cols-2 gap-8">
@@ -77,7 +77,7 @@ export default function AircraftPage() {
                   RECORD
                 </div>
                 <div>
-                  <h2 className="text-2xl font-semibold text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+                  <h2 className="text-2xl font-semibold text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                     &quot;Ol&apos; Gappy&quot; — 157 Missions
                   </h2>
                   <p className="text-[#666] mt-4 leading-relaxed">
@@ -91,7 +91,7 @@ export default function AircraftPage() {
             </div>
 
             {/* Lost Aircraft */}
-            <div className="bg-[#4b3621] text-[#f5f5dc] p-8">
+            <div className="bg-[#1e3a5f] text-[#f5f5dc] p-8">
               <h2 className="text-2xl font-semibold mb-4" style={{ fontFamily: 'Georgia, serif' }}>
                 Aircraft Lost in Action
               </h2>

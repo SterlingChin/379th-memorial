@@ -51,27 +51,27 @@ export default function MissionsPage() {
           <div className="max-w-4xl mx-auto">
             {/* Key Missions */}
             <div className="bg-white p-8 shadow-md mb-8">
-              <h2 className="text-2xl font-semibold mb-6 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Notable Missions
               </h2>
               <div className="space-y-6">
                 <div className="border-l-4 border-[#d4a017] pl-4">
                   <p className="text-sm text-[#d4a017] font-semibold">May 29, 1943</p>
-                  <h3 className="font-semibold text-[#4b3621]">First Mission: St. Nazaire, France</h3>
+                  <h3 className="font-semibold text-[#1e3a5f]">First Mission: St. Nazaire, France</h3>
                   <p className="text-[#666] text-sm mt-1">
                     German U-boat pens. The 379th&apos;s first combat mission.
                   </p>
                 </div>
                 <div className="border-l-4 border-[#d4a017] pl-4">
                   <p className="text-sm text-[#d4a017] font-semibold">April 1944</p>
-                  <h3 className="font-semibold text-[#4b3621]">The Grand Slam Month</h3>
+                  <h3 className="font-semibold text-[#1e3a5f]">The Grand Slam Month</h3>
                   <p className="text-[#666] text-sm mt-1">
                     First in all five categories — the only group ever to achieve this.
                   </p>
                 </div>
                 <div className="border-l-4 border-[#d4a017] pl-4">
                   <p className="text-sm text-[#d4a017] font-semibold">April 25, 1945</p>
-                  <h3 className="font-semibold text-[#4b3621]">Last Mission: Pilsen, Czechoslovakia</h3>
+                  <h3 className="font-semibold text-[#1e3a5f]">Last Mission: Pilsen, Czechoslovakia</h3>
                   <p className="text-[#666] text-sm mt-1">
                     The 379th&apos;s final combat mission of the war.
                   </p>
@@ -81,7 +81,7 @@ export default function MissionsPage() {
 
             {/* Target Types */}
             <div className="bg-white p-8 shadow-md mb-8">
-              <h2 className="text-2xl font-semibold mb-6 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Target Types
               </h2>
               <div className="grid md:grid-cols-2 gap-4">
@@ -104,7 +104,7 @@ export default function MissionsPage() {
             </div>
 
             {/* Mission Reports PDF */}
-            <div className="bg-[#4b3621] text-[#f5f5dc] p-8">
+            <div className="bg-[#1e3a5f] text-[#f5f5dc] p-8">
               <h2 className="text-2xl font-semibold mb-4" style={{ fontFamily: 'Georgia, serif' }}>
                 Mission Reports Archive
               </h2>

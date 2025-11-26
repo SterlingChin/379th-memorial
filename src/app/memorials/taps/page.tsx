@@ -38,7 +38,7 @@ export default function TapsPage() {
       </section>
 
       {/* High Flight Poem */}
-      <section className="py-12 bg-[#4b3621]">
+      <section className="py-12 bg-[#1e3a5f]">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-2xl font-semibold text-[#d4a017] mb-6" style={{ fontFamily: 'Georgia, serif' }}>
@@ -75,7 +75,7 @@ export default function TapsPage() {
       <section className="py-8 border-b border-[#d4a017]">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            <p className="text-[#4b3621] text-center">
+            <p className="text-[#1e3a5f] text-center">
               The Final Mission Roster honors deceased veterans of the 379th Bombardment Group WWII (H)
               who were not Killed in Action (KIA) or Missing in Action (MIA) during WWII, as they are
               shown in the 379th BG Anthology, the National Archives and the National WWII Memorial.
@@ -92,7 +92,7 @@ export default function TapsPage() {
               <a
                 key={letter}
                 href={`#letter-${letter}`}
-                className="w-8 h-8 flex items-center justify-center bg-[#4b3621] text-[#f5f5dc] hover:bg-[#d4a017] hover:text-[#1a1a1a] transition-colors text-sm font-semibold"
+                className="w-8 h-8 flex items-center justify-center bg-[#1e3a5f] text-[#f5f5dc] hover:bg-[#d4a017] hover:text-[#1a1a1a] transition-colors text-sm font-semibold"
               >
                 {letter}
               </a>
@@ -107,7 +107,7 @@ export default function TapsPage() {
           <div className="max-w-6xl mx-auto">
             {letters.map((letter) => (
               <div key={letter} id={`letter-${letter}`} className="mb-8">
-                <h3 className="text-3xl font-bold text-[#4b3621] border-b-2 border-[#d4a017] pb-2 mb-4" style={{ fontFamily: 'Georgia, serif' }}>
+                <h3 className="text-3xl font-bold text-[#1e3a5f] border-b-2 border-[#d4a017] pb-2 mb-4" style={{ fontFamily: 'Georgia, serif' }}>
                   {letter}
                 </h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">

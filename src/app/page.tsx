@@ -80,7 +80,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-4xl font-bold mb-6" style={{ fontFamily: 'Georgia, serif' }}>
               Preserving Their Legacy
             </h2>
-            <p className="text-lg text-[#4b3621] leading-relaxed mb-8">
+            <p className="text-lg text-[#1e3a5f] leading-relaxed mb-8">
               The 379th Bomb Group WWII Association was organized to perpetuate the history
               of the 379th Bomb Group (H), to remember and honor the memory of lost comrades,
               and to educate present and future generations. This site continues that mission.
@@ -134,7 +134,7 @@ export default function Home() {
       </section>
 
       {/* Grand Slam Section */}
-      <section className="bg-[#4b3621] text-[#f5f5dc] py-16">
+      <section className="bg-[#1e3a5f] text-[#f5f5dc] py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-8">
@@ -148,23 +148,23 @@ export default function Home() {
               category by which bomb groups were measured. No other group ever accomplished this.
             </p>
             <div className="grid md:grid-cols-5 gap-4 text-center text-sm">
-              <div className="bg-[#5c4a2e] p-4">
+              <div className="bg-[#2c5282] p-4">
                 <p className="text-[#d4a017] font-semibold">#1</p>
                 <p>Bombing Accuracy</p>
               </div>
-              <div className="bg-[#5c4a2e] p-4">
+              <div className="bg-[#2c5282] p-4">
                 <p className="text-[#d4a017] font-semibold">#1</p>
                 <p>Tonnage Dropped</p>
               </div>
-              <div className="bg-[#5c4a2e] p-4">
+              <div className="bg-[#2c5282] p-4">
                 <p className="text-[#d4a017] font-semibold">#1</p>
                 <p>Aircraft Attacking</p>
               </div>
-              <div className="bg-[#5c4a2e] p-4">
+              <div className="bg-[#2c5282] p-4">
                 <p className="text-[#d4a017] font-semibold">#1</p>
                 <p>Lowest Losses</p>
               </div>
-              <div className="bg-[#5c4a2e] p-4">
+              <div className="bg-[#2c5282] p-4">
                 <p className="text-[#d4a017] font-semibold">#1</p>
                 <p>Lowest Abort Rate</p>
               </div>

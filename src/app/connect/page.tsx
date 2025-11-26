@@ -25,7 +25,7 @@ export default function ConnectPage() {
           <div className="max-w-4xl mx-auto">
             {/* Share Your Story */}
             <div className="bg-white p-8 shadow-md mb-8">
-              <h2 className="text-2xl font-semibold mb-6 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Share Your Story
               </h2>
               <p className="text-[#666] mb-6">
@@ -33,7 +33,7 @@ export default function ConnectPage() {
                 We&apos;d love to preserve them on this site for future generations.
               </p>
               <div className="bg-[#e8e8d0] p-6 rounded">
-                <h3 className="font-semibold text-[#4b3621] mb-3">We&apos;re looking for:</h3>
+                <h3 className="font-semibold text-[#1e3a5f] mb-3">We&apos;re looking for:</h3>
                 <ul className="space-y-2 text-[#666]">
                   <li className="flex items-start gap-2">
                     <span className="text-[#d4a017] mt-1">•</span>
@@ -57,13 +57,13 @@ export default function ConnectPage() {
 
             {/* Contact Form Placeholder */}
             <div className="bg-white p-8 shadow-md mb-8">
-              <h2 className="text-2xl font-semibold mb-6 text-[#4b3621]" style={{ fontFamily: 'Georgia, serif' }}>
+              <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Get in Touch
               </h2>
               <form className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-sm font-medium text-[#4b3621] mb-2">
+                    <label className="block text-sm font-medium text-[#1e3a5f] mb-2">
                       Your Name
                     </label>
                     <input
@@ -73,7 +73,7 @@ export default function ConnectPage() {
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-[#4b3621] mb-2">
+                    <label className="block text-sm font-medium text-[#1e3a5f] mb-2">
                       Email Address
                     </label>
                     <input
@@ -84,7 +84,7 @@ export default function ConnectPage() {
                   </div>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-[#4b3621] mb-2">
+                  <label className="block text-sm font-medium text-[#1e3a5f] mb-2">
                     Veteran&apos;s Name (if applicable)
                   </label>
                   <input
@@ -94,7 +94,7 @@ export default function ConnectPage() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-[#4b3621] mb-2">
+                  <label className="block text-sm font-medium text-[#1e3a5f] mb-2">
                     Your Message
                   </label>
                   <textarea
@@ -124,7 +124,7 @@ export default function ConnectPage() {
             </div>
 
             {/* Related Resources */}
-            <div className="bg-[#4b3621] text-[#f5f5dc] p-8">
+            <div className="bg-[#1e3a5f] text-[#f5f5dc] p-8">
               <h2 className="text-2xl font-semibold mb-6" style={{ fontFamily: 'Georgia, serif' }}>
                 Related Resources
               </h2>
@@ -133,7 +133,7 @@ export default function ConnectPage() {
                   href="https://www.mightye8th.org/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block p-4 bg-[#5c4a2e] hover:bg-[#6d5b3f] transition-colors"
+                  className="block p-4 bg-[#2c5282] hover:bg-[#3d6399] transition-colors"
                 >
                   <h3 className="font-semibold text-[#d4a017]">Mighty 8th Air Force Museum</h3>
                   <p className="text-sm text-[#e8e8d0]">mightye8th.org</p>
@@ -142,7 +142,7 @@ export default function ConnectPage() {
                   href="https://www.8thafhs.org/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block p-4 bg-[#5c4a2e] hover:bg-[#6d5b3f] transition-colors"
+                  className="block p-4 bg-[#2c5282] hover:bg-[#3d6399] transition-colors"
                 >
                   <h3 className="font-semibold text-[#d4a017]">8th Air Force Historical Society</h3>
                   <p className="text-sm text-[#e8e8d0]">8thafhs.org</p>
@@ -151,7 +151,7 @@ export default function ConnectPage() {
                   href="https://www.americanairmuseum.com/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="block p-4 bg-[#5c4a2e] hover:bg-[#6d5b3f] transition-colors"
+                  className="block p-4 bg-[#2c5282] hover:bg-[#3d6399] transition-colors"
                 >
                   <h3 className="font-semibold text-[#d4a017]">American Air Museum in Britain</h3>
                   <p className="text-sm text-[#e8e8d0]">americanairmuseum.com</p>
