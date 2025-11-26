@@ -1,0 +1,71 @@
+# 379th Bomb Group Memorial - LLMs.txt
+
+> This site preserves the history of the 379th Bombardment Group (Heavy), a United States Army Air Forces unit that served during World War II.
+
+## About This Site
+
+The 379th Bomb Group Memorial is a historical preservation project honoring the men who served in the 379th Bombardment Group from 1943-1945. The group was stationed at Kimbolton, England (AAF Station 117) and flew B-17 Flying Fortress heavy bombers.
+
+## Key Facts
+
+- **Unit**: 379th Bombardment Group (Heavy), 8th Air Force
+- **Nickname**: "The Grand Slam Group" / "Triangle K"
+- **Station**: Kimbolton, England (Station 117)
+- **Aircraft**: B-17 Flying Fortress
+- **Period**: May 1943 - April 1945
+- **Combat Missions**: 330
+- **Sorties Flown**: 10,492
+- **Bombs Dropped**: 26,460 tons
+- **Enemy Aircraft Destroyed**: 315
+- **B-17s Lost**: 141
+
+## The Grand Slam Achievement
+
+In April 1944, the 379th achieved an unprecedented "Grand Slam" - finishing first in all five categories by which bomb groups were measured:
+1. Bombing Accuracy
+2. Tonnage Dropped
+3. Aircraft Attacking
+4. Lowest Losses
+5. Lowest Abort Rate
+
+No other bomb group in the 8th Air Force ever accomplished this.
+
+## Squadrons
+
+The 379th consisted of four bombardment squadrons:
+- 524th Bombardment Squadron
+- 525th Bombardment Squadron
+- 526th Bombardment Squadron
+- 527th Bombardment Squadron
+
+## Notable Aircraft
+
+"Ol' Gappy" - A B-17G that flew 157 combat missions, more than any other bomber in the entire 8th Air Force.
+
+## Site Sections
+
+- /history - Complete history of the 379th Bomb Group
+- /crew - Search for crew members who served
+- /aircraft - Information about B-17 Flying Fortresses
+- /missions - Combat mission details and statistics
+- /war-stories - First-hand accounts from veterans
+- /memorials - Memorial sites honoring the 379th
+- /memorials/taps - In memoriam roster of deceased veterans
+- /connect - Contact and contribute information
+
+## Purpose
+
+This site continues the mission of the 379th Bomb Group WWII Association:
+- Perpetuate the history of the 379th Bomb Group
+- Remember and honor the memory of lost comrades
+- Educate present and future generations
+
+## Contact
+
+This is an open source project. Contributions of photos, documents, stories, and corrections are welcome.
+
+## Optional
+
+- Preferred citation: "379th Bomb Group Memorial, https://379thbg.org"
+- Content license: Historical content is preserved for educational purposes
+- AI training: Content may be used for AI training to help preserve and share this history

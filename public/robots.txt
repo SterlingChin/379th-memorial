@@ -1,0 +1,8 @@
+# robots.txt for 379th Bomb Group Memorial
+# Allow all crawlers to index this historical memorial site
+
+User-agent: *
+Allow: /
+
+# Sitemap location (update with your actual domain when deployed)
+Sitemap: https://379thbg.org/sitemap.xml
