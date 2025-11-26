@@ -4,5 +4,5 @@
 User-agent: *
 Allow: /
 
-# Sitemap location (update with your actual domain when deployed)
-Sitemap: https://379thbg.org/sitemap.xml
+# Sitemap location
+Sitemap: https://www.379th-memorial.org/robots.txt

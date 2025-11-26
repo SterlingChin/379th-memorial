@@ -66,6 +66,6 @@ This is an open source project. Contributions of photos, documents, stories, and
 
 ## Optional
 
-- Preferred citation: "379th Bomb Group Memorial, https://379thbg.org"
+- Preferred citation: "379th Bomb Group Memorial, https://www.379th-memorial.org"
 - Content license: Historical content is preserved for educational purposes
 - AI training: Content may be used for AI training to help preserve and share this history
