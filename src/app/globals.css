@@ -1,8 +1,20 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* 379th Memorial Color Palette */
+  --olive-drab: #4a5320;
+  --olive-light: #6b7530;
+  --army-brown: #4b3621;
+  --sky-blue: #1e3a5f;
+  --sky-blue-light: #2c5282;
+  --cream: #f5f5dc;
+  --cream-dark: #e8e8d0;
+  --gold: #d4a017;
+  --gold-light: #e8b923;
+
+  --background: #f5f5dc;
+  --foreground: #1a1a1a;
+  --muted: #666666;
 }
 
 @theme inline {
@@ -12,15 +24,52 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: var(--army-brown);
+}
+
+/* Custom utility classes */
+.text-olive { color: var(--olive-drab); }
+.text-sky { color: var(--sky-blue); }
+.text-gold { color: var(--gold); }
+.bg-olive { background-color: var(--olive-drab); }
+.bg-sky { background-color: var(--sky-blue); }
+.bg-cream { background-color: var(--cream); }
+.bg-cream-dark { background-color: var(--cream-dark); }
+
+/* Navigation styles */
+.nav-link {
+  position: relative;
+  color: var(--cream);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: var(--gold);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: var(--gold);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.nav-link:hover::after {
+  width: 80%;
 }

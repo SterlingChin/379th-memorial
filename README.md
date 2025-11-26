@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 379th Bomb Group Memorial
+
+**Website:** [379th-memorial.org](https://379th-memorial.org)
+
+A memorial website honoring the men of the 379th Bombardment Group (Heavy) — "The Grand Slam Group" — who flew B-17 Flying Fortresses from Kimbolton, England during World War II.
+
+## About the 379th
+
+The 379th Bomb Group was part of the Mighty 8th Air Force, 1st Bombardment Division. From May 1943 to April 1945, they:
+
+- Flew **330 combat missions**
+- Completed **10,492 sorties**
+- Dropped **26,460 tons of bombs**
+- Shot down **315 enemy aircraft**
+- Lost **141 B-17s** to enemy action
+
+In April 1944, the 379th achieved an unprecedented "Grand Slam" — ranking #1 in bombing accuracy, tonnage, aircraft attacking, lowest losses, and lowest abort rate. No other bomb group in the 8th Air Force ever accomplished this.
+
+## Project Purpose
+
+This site preserves the history of the 379th and provides:
+
+- **Searchable crew database** — Find ancestors who served
+- **War stories** — First-person accounts from veterans
+- **Photo archive** — Crews, aircraft, and Kimbolton airfield
+- **Mission records** — Historical documents and reports
+- **Family connections** — Connect with other descendants
+
+## Tech Stack
+
+- **Framework:** Next.js 14 (App Router)
+- **Styling:** Tailwind CSS
+- **Content:** Markdown with YAML frontmatter
+- **Hosting:** Vercel
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/379th-memorial.git
+cd 379th-memorial
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+We welcome contributions! If you have:
 
-## Learn More
+- **Photos** — Crew photos, aircraft, airfield images
+- **Documents** — Letters, mission reports, service records
+- **Stories** — Written accounts from veterans or families
+- **Corrections** — Historical accuracy improvements
 
-To learn more about Next.js, take a look at the following resources:
+Please open an issue or submit a pull request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Adding Content
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+All content is in Markdown format in the `/content` directory:
 
-## Deploy on Vercel
+```
+content/
+├── history/          # Historical articles
+├── crew/             # Individual crew member profiles
+├── war-stories/      # First-person accounts
+├── aircraft/         # Aircraft information
+└── memorials/        # Memorial locations
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Content Format
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```markdown
+---
+title: "Story Title"
+author: "Veteran Name"
+squadron: "524th"
+featured: true
+---
+
+Your content here in Markdown format...
+```
+
+## Data Sources
+
+This site preserves content originally from:
+
+- **www.379thbga.org** — The original 379th Bomb Group Association website
+- **Mighty 8th Air Force Museum** — Savannah, Georgia
+- **National Archives** — Official military records
+- **Family contributions** — Photos and documents from descendants
+
+## License
+
+This project is open source under the MIT License. Historical content remains the property of original contributors and their families.
+
+## Acknowledgments
+
+- The original 379th Bomb Group Association and its volunteers
+- The families who have shared photos, stories, and documents
+- The Mighty 8th Air Force Museum for historical preservation
+- All who served in the 379th Bomb Group
+
+---
+
+*"To perpetuate the history of the 379th Bomb Group (H), to remember and honor the memory of lost comrades, and to educate present and future generations."*
