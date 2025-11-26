@@ -10,6 +10,7 @@ export interface ContentMeta {
   title?: string;
   date?: string;
   author?: string;
+  rank?: string;
   squadron?: string;
   featured?: boolean;
   [key: string]: unknown;
