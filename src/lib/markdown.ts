@@ -13,6 +13,7 @@ export interface ContentMeta {
   rank?: string;
   squadron?: string;
   featured?: boolean;
+  audio?: string;
   [key: string]: unknown;
 }
 

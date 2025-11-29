@@ -37,10 +37,20 @@ export default async function WarStoriesPage() {
                     className="block bg-white p-6 shadow-md hover:shadow-lg transition-shadow"
                   >
                     <div className="flex justify-between items-start">
-                      <div>
-                        <h2 className="text-xl font-semibold text-[#1e3a5f] mb-2" style={{ fontFamily: 'Georgia, serif' }}>
-                          {story.meta.title}
-                        </h2>
+                      <div className="flex-1">
+                        <div className="flex items-center gap-2 mb-2">
+                          <h2 className="text-xl font-semibold text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
+                            {story.meta.title}
+                          </h2>
+                          {story.meta.audio && (
+                            <span className="inline-flex items-center gap-1 bg-[#1e3a5f] text-[#d4a017] px-2 py-0.5 rounded text-xs" title="Audio narration available">
+                              <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                              </svg>
+                              Audio
+                            </span>
+                          )}
+                        </div>
                         {story.meta.author && (
                           <p className="text-[#666] text-sm">
                             by {story.meta.author}
@@ -48,7 +58,7 @@ export default async function WarStoriesPage() {
                           </p>
                         )}
                       </div>
-                      <span className="text-[#d4a017]">→</span>
+                      <span className="text-[#d4a017] ml-4">→</span>
                     </div>
                   </Link>
                 ))}

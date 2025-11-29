@@ -80,7 +80,7 @@ export default async function WarStoryPage({ params }: PageProps) {
                 className="w-full h-12"
                 preload="metadata"
               >
-                <source src={story.meta.audio as string} type="audio/mpeg" />
+                <source src={story.meta.audio} type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
               <p className="text-xs text-[#888] mt-2 flex items-center gap-1">
