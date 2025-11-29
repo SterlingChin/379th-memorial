@@ -130,13 +130,13 @@ export default function ConnectPage() {
               </h2>
               <div className="space-y-4">
                 <a
-                  href="https://www.mightye8th.org/"
+                  href="https://www.mightyeighth.org/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block p-4 bg-[#2c5282] hover:bg-[#3d6399] transition-colors"
                 >
                   <h3 className="font-semibold text-[#d4a017]">Mighty 8th Air Force Museum</h3>
-                  <p className="text-sm text-[#e8e8d0]">mightye8th.org</p>
+                  <p className="text-sm text-[#e8e8d0]">mightyeighth.org</p>
                 </a>
                 <a
                   href="https://www.8thafhs.org/"

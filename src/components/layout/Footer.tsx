@@ -69,7 +69,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="https://www.mightye8th.org/"
+                  href="https://www.mightyeighth.org/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[#e8e8d0] hover:text-[#d4a017] transition-colors"
