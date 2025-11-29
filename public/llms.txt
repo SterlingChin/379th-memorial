@@ -46,12 +46,27 @@ The 379th consisted of four bombardment squadrons:
 
 - /history - Complete history of the 379th Bomb Group
 - /crew - Search for crew members who served
+- /crew/loc-veterans - Library of Congress Veterans History Project oral histories
 - /aircraft - Information about B-17 Flying Fortresses
 - /missions - Combat mission details and statistics
 - /war-stories - First-hand accounts from veterans
 - /memorials - Memorial sites honoring the 379th
 - /memorials/taps - In memoriam roster of deceased veterans
 - /connect - Contact and contribute information
+
+## Library of Congress Veterans History Project
+
+This site features oral histories from 379th Bomb Group veterans preserved by the Library of Congress:
+- Armand Joseph Volpini - Lead Bombardier, 526th Bomb Squadron (30 missions)
+- David Ellison Ferris - POW at Stalag Luft 1
+- Arlo F. Bartsch - First Lieutenant, 525th Bomb Squadron
+- John Carl Taylor - Lieutenant Colonel, 524th Bomb Squadron
+- Roland H. Martin - B-17 Pilot, shot down during Schweinfurt raid, POW
+- Elmo Fama - Waist Gunner/Radio Operator, 526th Bomb Squadron
+- Charles Wendell Parrish - Gunner, POW at Stalag Luft IV
+- Alvar Bryce Platt - B-17 Waist Gunner, POW at Stalag Luft XVII
+
+All collections are available at: https://www.loc.gov/collections/veterans-history-project-collection/
 
 ## Purpose
 

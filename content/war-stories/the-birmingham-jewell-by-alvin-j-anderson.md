@@ -3,6 +3,7 @@ title: "THE BIRMINGHAM JEWELL by Alvin J. Anderson"
 author: "Alvin J. Anderson"
 squadron: ""
 featured: false
+audio: "/audio/war-stories/the-birmingham-jewell-by-alvin-j-anderson.mp3"
 ---
 
 THE BIRMINGHAM JEWELL by Alvin J. Anderson

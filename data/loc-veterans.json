@@ -1,0 +1,186 @@
+{
+  "source": "Library of Congress Veterans History Project",
+  "sourceUrl": "https://www.loc.gov/collections/veterans-history-project-collection/",
+  "description": "Oral histories and collections from veterans of the 379th Bomb Group, preserved by the American Folklife Center at the Library of Congress.",
+  "veterans": [
+    {
+      "id": "volpini",
+      "name": "Armand Joseph Volpini",
+      "locUrl": "https://www.loc.gov/item/afc2001001.87494/",
+      "collectionNumber": "AFC/2001/001/87494",
+      "rank": "First Lieutenant",
+      "squadron": "526th Bomb Squadron",
+      "unit": "379th Bomb Group",
+      "position": "Lead Bombardier",
+      "datesOfService": "1942-1945",
+      "locationsOfService": [
+        "Atlantic City, New Jersey",
+        "Santa Ana, California",
+        "Kingman, Arizona",
+        "Deming, New Mexico",
+        "Ardmore, Oklahoma",
+        "Bolton, England"
+      ],
+      "missions": 30,
+      "awards": ["5 Air Medals"],
+      "birthPlace": "Southbridge, Massachusetts",
+      "lifespan": "1920-2013",
+      "collectionMaterials": ["Oral history interview (audio CD)", "Transcript", "Military papers (1944-1945)"],
+      "interviewDate": "2012-04-20",
+      "summary": "Lead bombardier who completed 30 missions with the 526th Bomb Squadron. Born to Italian immigrants in Massachusetts, Volpini trained as an Aviator Cadet before deploying to England on a B-17."
+    },
+    {
+      "id": "ferris",
+      "name": "David Ellison Ferris",
+      "locUrl": "https://www.loc.gov/item/afc2001001.20724/",
+      "collectionNumber": "AFC/2001/001/20724",
+      "rank": "Second Lieutenant",
+      "squadron": "379th Bomb Group",
+      "unit": "379th Bomb Group, 8th Air Force",
+      "position": "Aircrew",
+      "datesOfService": "1943-1945",
+      "locationsOfService": [
+        "Detroit, Michigan",
+        "Manchester, New Hampshire",
+        "Bangor, Maine",
+        "Gander, Newfoundland",
+        "Goose Bay, Labrador",
+        "Scotland",
+        "Kimbolton, England",
+        "Stalag Luft 1"
+      ],
+      "pow": true,
+      "powCamp": "Stalag Luft 1",
+      "powDate": "1944-04-19",
+      "collectionMaterials": ["Oral history interview"],
+      "summary": "Assigned to the 379th at Kimbolton in January 1944. His crew flew from Detroit to England via the North Atlantic, a journey taking six weeks due to engine troubles. Shot down and captured, he was held at Stalag Luft 1. Five of his crew members escaped through the Underground. At a 1980 POW reunion, he was recognized by his former radio operator."
+    },
+    {
+      "id": "bartsch",
+      "name": "Arlo F. Bartsch",
+      "locUrl": "https://www.loc.gov/item/afc2001001.70419/",
+      "collectionNumber": "AFC/2001/001/70419",
+      "rank": "First Lieutenant",
+      "squadron": "525th Bomb Squadron",
+      "unit": "379th Bomb Group, 8th Air Force",
+      "position": "Aircrew",
+      "datesOfService": "1942-1945",
+      "locationsOfService": [
+        "United States",
+        "England"
+      ],
+      "collectionMaterials": ["Oral history interview", "Documentary materials (1942)"],
+      "contributor": "Daughters of the American Revolution, Hot Springs Village, Arkansas Chapter",
+      "summary": "First Lieutenant who served with the 525th Bomb Squadron at Kimbolton, England from 1942-1945."
+    },
+    {
+      "id": "taylor",
+      "name": "John Carl Taylor",
+      "locUrl": "https://www.loc.gov/item/afc2001001.85680/",
+      "collectionNumber": "AFC/2001/001/85680",
+      "rank": "Lieutenant Colonel",
+      "squadron": "524th Bomb Squadron",
+      "unit": "379th Bomb Group",
+      "position": "Pilot/Commander",
+      "locationsOfService": [
+        "United Kingdom",
+        "Germany",
+        "Pacific",
+        "Laos"
+      ],
+      "birthPlace": "Texas",
+      "collectionMaterials": ["Oral history interview (recording)"],
+      "interviewer": "Mary C. McCord, Adult Center of Prescott",
+      "summary": "Rose to the rank of Lieutenant Colonel while serving with the 524th Bomb Squadron. His service extended beyond WWII to include the Pacific and Laos."
+    },
+    {
+      "id": "martin",
+      "name": "Roland H. Martin",
+      "locUrl": "https://www.loc.gov/item/afc2001001.67276/",
+      "collectionNumber": "AFC/2001/001/67276",
+      "rank": "First Lieutenant",
+      "squadron": "525th Bomb Squadron",
+      "unit": "379th Bomb Group, 8th Air Force",
+      "position": "B-17 Pilot",
+      "datesOfService": "1942-1946",
+      "locationsOfService": [
+        "Santa Ana, California",
+        "Dyersburg, Tennessee",
+        "England",
+        "France",
+        "Germany",
+        "European Theater"
+      ],
+      "pow": true,
+      "powCamp": "Stalag Luft 1, Barth",
+      "aircraft": "B-17F 42-29511 'The Iron Maiden'",
+      "aircraftCode": "FR-W",
+      "shootdownDetails": "Shot down by Lt. Ludwig Wirtz of Luftbeobachterstaffel 7 at 17:00 hrs, crash-landed south of Wurzburg, Germany during the second Schweinfurt raid.",
+      "collectionMaterials": ["Oral history interview (audio cassettes)", "Transcript", "Images"],
+      "interviewDate": "2007",
+      "summary": "Pilot of 'The Iron Maiden' during the devastating second Schweinfurt raid where 60 American aircraft were lost. All crew members survived and became POWs. Martin was held at Stalag Luft 1 in Barth until liberation."
+    },
+    {
+      "id": "fama",
+      "name": "Elmo Fama",
+      "locUrl": "https://www.loc.gov/item/afc2001001.112628/",
+      "collectionNumber": "AFC/2001/001/112628",
+      "rank": "Technical Sergeant",
+      "squadron": "526th Bomb Squadron",
+      "unit": "379th Bomb Group, 8th Air Force",
+      "position": "Waist Gunner / Radio Operator",
+      "locationsOfService": [
+        "England",
+        "European Theater"
+      ],
+      "campaigns": ["Air Offensive Europe"],
+      "collectionMaterials": ["Oral history interview"],
+      "interviewDate": "2017-08-29",
+      "interviewer": "Marilyn A. Pahr, Pacific Coast Air Museum",
+      "summary": "Served as both waist gunner and radio operator on a B-17 bomber with the 526th Bomb Squadron during the Air Offensive Europe campaign."
+    },
+    {
+      "id": "parrish",
+      "name": "Charles Wendell Parrish",
+      "locUrl": "https://www.loc.gov/item/afc2001001.76944/",
+      "collectionNumber": "AFC/2001/001/76944",
+      "rank": "Enlisted",
+      "squadron": "379th Bomb Group",
+      "unit": "379th Bomb Group, 8th Air Force",
+      "position": "Gunner",
+      "locationsOfService": [
+        "Kimbolton, England",
+        "Stalag Luft IV, Gross Tychow, Pomerania",
+        "European Theater"
+      ],
+      "pow": true,
+      "powCamp": "Stalag Luft IV",
+      "powDate": "1944-08-09",
+      "shootdownDetails": "Crashed into the North Sea in July 1944 and was rescued by the British. Shot down over Aachen on August 9, 1944 and taken prisoner.",
+      "priorService": "31st Infantry Division (Dixie Division), Army National Guard",
+      "collectionMaterials": ["Oral history interview"],
+      "summary": "B-17 gunner who survived two dramatic incidents: a crash into the North Sea in July 1944 (rescued by British forces) and being shot down over Aachen in August 1944. Spent the remainder of the war as a POW at Stalag Luft IV."
+    },
+    {
+      "id": "platt",
+      "name": "Alvar Bryce Platt",
+      "locUrl": "https://www.loc.gov/item/afc2001001.88708/",
+      "collectionNumber": "AFC/2001/001/88708",
+      "rank": "Enlisted",
+      "squadron": "379th Bomb Group",
+      "unit": "8th Air Force",
+      "position": "B-17 Waist Gunner",
+      "locationsOfService": [
+        "RAF Kimbolton, England",
+        "Stalag Luft XVII"
+      ],
+      "pow": true,
+      "powCamp": "Stalag Luft XVII",
+      "shootdownDetails": "Shot down over the English Channel, captured, and held as a prisoner of war.",
+      "collectionMaterials": ["Oral history interview (video DVD)", "Typewritten memoir"],
+      "interviewDate": "2013",
+      "memoirDate": "2012",
+      "summary": "B-17 waist gunner who was shot down over the English Channel. After capture, he was held as a POW at Stalag Luft XVII until liberation."
+    }
+  ]
+}

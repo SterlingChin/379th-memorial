@@ -57,6 +57,43 @@ export default async function WarStoryPage({ params }: PageProps) {
         </div>
       </section>
 
+      {/* Audio Narration */}
+      {story.meta.audio && (
+        <section className="bg-[#e8e8d0] border-b border-[#d4d4b8]">
+          <div className="container mx-auto px-4 py-6">
+            <div className="max-w-3xl mx-auto">
+              <div className="flex items-center gap-3 mb-3">
+                <div className="w-10 h-10 bg-[#1e3a5f] rounded-full flex items-center justify-center flex-shrink-0">
+                  <svg className="w-5 h-5 text-[#d4a017]" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/>
+                  </svg>
+                </div>
+                <div>
+                  <h2 className="text-lg font-semibold text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
+                    Listen to This Story
+                  </h2>
+                  <p className="text-xs text-[#666]">Audio narration available</p>
+                </div>
+              </div>
+              <audio
+                controls
+                className="w-full h-12"
+                preload="metadata"
+              >
+                <source src={story.meta.audio as string} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+              <p className="text-xs text-[#888] mt-2 flex items-center gap-1">
+                <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+                </svg>
+                AI-generated narration created using ElevenLabs. Original text by {story.meta.author || 'the author'}.
+              </p>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Content */}
       <section className="py-12">
         <div className="container mx-auto px-4">

@@ -79,6 +79,24 @@ export default function CrewPage() {
               ))}
             </div>
 
+            {/* LOC Veterans History Project */}
+            <div className="bg-[#4a5320] text-[#f5f5dc] p-8 mb-12">
+              <h2 className="text-2xl font-semibold mb-4" style={{ fontFamily: 'Georgia, serif' }}>
+                Library of Congress Oral Histories
+              </h2>
+              <p className="text-[#e8e8d0] mb-6">
+                The Veterans History Project at the Library of Congress has preserved oral histories
+                and documentary collections from 8 veterans of the 379th Bomb Group, including pilots,
+                bombardiers, gunners, and POWs.
+              </p>
+              <Link
+                href="/crew/loc-veterans"
+                className="inline-block bg-[#d4a017] hover:bg-[#e8b923] text-[#1a1a1a] px-6 py-3 font-semibold transition-colors"
+              >
+                View LOC Collections →
+              </Link>
+            </div>
+
             {/* Crew Positions */}
             <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
               Crew Positions

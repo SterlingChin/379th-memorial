@@ -3,6 +3,7 @@ title: "AN EVADER'S EXPERIENCE by William J. Miller"
 author: "William J. Miller"
 squadron: ""
 featured: false
+audio: "/audio/war-stories/an-evaders-s-experience-by-william-j-miller.MP3"
 ---
 
 AN EVADER'S EXPERIENCE by William J. Miller
