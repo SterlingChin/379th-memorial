@@ -3,11 +3,14 @@ title: "AN ORDNANCE MAN'S STORY by Adolph Cello"
 author: "Adolph Cello"
 squadron: ""
 featured: false
+audio: "/audio/war-stories/an-ordnance-man-s-story-by-adolph-cello.MP3"
 ---
 
 AN ORDNANCE MAN'S STORY by Adolph Cello
 
 Featured in the February 1986 issue of Contrails.
+
+![PFC Adolph Cello, 526th Squadron Ordnance Detachment, sitting on a 1,000lb bomb holding two tail fuses](/images/war-stories/adolph-cello-bombs.jpg)
 
 PFC 
 Adolph Cello, 526th Squadron Ordannce Detachment, 379th 
@@ -72,7 +75,9 @@ scrubbed we returned to the planes and disarmed all
 fuses, removed the bombs and returned them to the 
 storage site. By the time we got through it usually was 
 daylight. We were so exhausted that some of us hit the 
-sack instead of going to chow. 
+sack instead of going to chow.
+
+![Loading bombs onto a B-17 Flying Fortress](/images/war-stories/loading-bombs.jpg)
 
 Armorer 
 men were the last ones off the plane. They had to make 

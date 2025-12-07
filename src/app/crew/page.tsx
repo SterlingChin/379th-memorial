@@ -97,6 +97,23 @@ export default function CrewPage() {
               </Link>
             </div>
 
+            {/* Taps - In Memoriam */}
+            <div className="bg-[#2c2c2c] text-[#f5f5dc] p-8 mb-12">
+              <h2 className="text-2xl font-semibold mb-4" style={{ fontFamily: 'Georgia, serif' }}>
+                Taps — In Memoriam
+              </h2>
+              <p className="text-[#ccc] mb-6">
+                The Final Mission Roster honors 1,329 deceased veterans of the 379th Bombardment Group
+                who were not Killed in Action or Missing in Action during WWII.
+              </p>
+              <Link
+                href="/memorials/taps"
+                className="inline-block bg-[#d4a017] hover:bg-[#e8b923] text-[#1a1a1a] px-6 py-3 font-semibold transition-colors"
+              >
+                View Memorial Roster →
+              </Link>
+            </div>
+
             {/* Crew Positions */}
             <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
               Crew Positions

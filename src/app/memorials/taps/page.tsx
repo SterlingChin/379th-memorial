@@ -6,6 +6,15 @@ export const metadata = {
   description: 'Final Mission Roster honoring deceased veterans of the 379th Bombardment Group.',
 };
 
+// Format name to add comma after last name: "Abbott James" -> "Abbott, James"
+function formatName(name: string): string {
+  const parts = name.split(' ');
+  if (parts.length < 2) return name;
+  const lastName = parts[0];
+  const rest = parts.slice(1).join(' ');
+  return `${lastName}, ${rest}`;
+}
+
 export default function TapsPage() {
   // Group names by first letter
   const groupedNames: Record<string, string[]> = {};
@@ -67,6 +76,19 @@ export default function TapsPage() {
                 Put out my hand, and touched the face of God.
               </p>
             </div>
+
+            {/* Audio Player */}
+            <div className="mt-8 pt-6 border-t border-[#2c5282]">
+              <p className="text-xs text-[#e8e8d0] mb-3">Listen to the musical tribute</p>
+              <audio
+                controls
+                className="w-full max-w-md mx-auto"
+                style={{ filter: 'invert(1) hue-rotate(180deg)' }}
+              >
+                <source src="/audio/music/slipped-the-surly-bonds-of-earth.mp3" type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
           </div>
         </div>
       </section>
@@ -113,7 +135,7 @@ export default function TapsPage() {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
                   {groupedNames[letter].map((name, index) => (
                     <div key={index} className="text-[#666] py-1">
-                      {name}
+                      {formatName(name)}
                     </div>
                   ))}
                 </div>

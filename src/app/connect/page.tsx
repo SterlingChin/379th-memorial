@@ -1,3 +1,5 @@
+import ContactForm from '@/components/ContactForm';
+
 export const metadata = {
   title: 'Connect - 379th Bomb Group Memorial',
   description: 'Connect with other families of 379th Bomb Group veterans. Share stories, photos, and research.',
@@ -55,72 +57,12 @@ export default function ConnectPage() {
               </div>
             </div>
 
-            {/* Contact Form Placeholder */}
+            {/* Contact Form */}
             <div className="bg-white p-8 shadow-md mb-8">
               <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Get in Touch
               </h2>
-              <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <label className="block text-sm font-medium text-[#1e3a5f] mb-2">
-                      Your Name
-                    </label>
-                    <input
-                      type="text"
-                      className="w-full px-4 py-3 border border-[#ccc] focus:border-[#1e3a5f] focus:outline-none"
-                      placeholder="John Smith"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-medium text-[#1e3a5f] mb-2">
-                      Email Address
-                    </label>
-                    <input
-                      type="email"
-                      className="w-full px-4 py-3 border border-[#ccc] focus:border-[#1e3a5f] focus:outline-none"
-                      placeholder="john@example.com"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-[#1e3a5f] mb-2">
-                    Veteran&apos;s Name (if applicable)
-                  </label>
-                  <input
-                    type="text"
-                    className="w-full px-4 py-3 border border-[#ccc] focus:border-[#1e3a5f] focus:outline-none"
-                    placeholder="Name of the 379th veteran"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-[#1e3a5f] mb-2">
-                    Your Message
-                  </label>
-                  <textarea
-                    rows={6}
-                    className="w-full px-4 py-3 border border-[#ccc] focus:border-[#1e3a5f] focus:outline-none"
-                    placeholder="Tell us about your connection to the 379th, or what you'd like to share..."
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  className="bg-[#1e3a5f] text-[#f5f5dc] px-8 py-3 font-semibold hover:bg-[#2c5282] transition-colors"
-                >
-                  Send Message
-                </button>
-              </form>
-              <p className="text-sm text-[#999] mt-4">
-                Note: Contact form coming soon. For now, please open an issue on our{' '}
-                <a
-                  href="https://github.com/SterlingChin/379th-memorial"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-[#1e3a5f] hover:text-[#d4a017]"
-                >
-                  GitHub repository
-                </a>.
-              </p>
+              <ContactForm />
             </div>
 
             {/* Related Resources */}
