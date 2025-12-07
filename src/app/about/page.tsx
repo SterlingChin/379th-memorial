@@ -146,12 +146,21 @@ export default function AboutPage() {
                   these stories survive for future generations.
                 </p>
               </div>
-              <Link
-                href="/connect"
-                className="inline-block bg-[#1e3a5f] hover:bg-[#2c5282] text-[#f5f5dc] px-6 py-3 font-semibold transition-colors"
-              >
-                Get in Touch
-              </Link>
+              <div className="flex flex-wrap gap-4 items-center">
+                <Link
+                  href="/connect"
+                  className="inline-block bg-[#1e3a5f] hover:bg-[#2c5282] text-[#f5f5dc] px-6 py-3 font-semibold transition-colors"
+                >
+                  Get in Touch
+                </Link>
+                <span className="text-[#666]">or email directly:</span>
+                <a
+                  href="mailto:admin@379th-memorial.org"
+                  className="text-[#1e3a5f] hover:text-[#d4a017] font-medium"
+                >
+                  admin@379th-memorial.org
+                </a>
+              </div>
             </div>
           </div>
         </div>
