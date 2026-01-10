@@ -106,7 +106,7 @@ export default function Footer() {
           <p className="mt-2 text-xs">
             This site is open source. {' '}
             <a
-              href="https://github.com"
+              href="https://github.com/SterlingChin/379th-memorial"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#d4a017] hover:underline"

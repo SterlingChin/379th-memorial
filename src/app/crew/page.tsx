@@ -30,23 +30,14 @@ export default function CrewPage() {
               <h2 className="text-2xl font-semibold mb-6 text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
                 Search Crew Database
               </h2>
-              <div className="flex gap-4">
-                <input
-                  type="text"
-                  placeholder="Search by name..."
-                  className="flex-1 px-4 py-3 border border-[#ccc] focus:border-[#1e3a5f] focus:outline-none"
-                  disabled
-                />
-                <button
-                  className="bg-[#1e3a5f] text-[#f5f5dc] px-6 py-3 font-semibold hover:bg-[#2c5282] transition-colors disabled:opacity-50"
-                  disabled
-                >
-                  Search
-                </button>
+              <div className="bg-[#f0f0e0] border-2 border-dashed border-[#ccc] p-6 text-center">
+                <p className="text-[#1e3a5f] font-semibold mb-2">
+                  🚧 Coming Soon
+                </p>
+                <p className="text-sm text-[#666]">
+                  The searchable crew database is under development. We are migrating records from the original site.
+                </p>
               </div>
-              <p className="text-sm text-[#666] mt-4">
-                The searchable crew database is coming soon. We are migrating records from the original site.
-              </p>
             </div>
 
             {/* Squadrons */}
@@ -55,27 +46,28 @@ export default function CrewPage() {
             </h2>
             <div className="grid md:grid-cols-2 gap-6 mb-12">
               {[
-                { id: '524th', name: '524th Bombardment Squadron' },
-                { id: '525th', name: '525th Bombardment Squadron' },
-                { id: '526th', name: '526th Bombardment Squadron' },
-                { id: '527th', name: '527th Bombardment Squadron' },
+                { id: '524th', name: '524th Bombardment Squadron', code: 'WA' },
+                { id: '525th', name: '525th Bombardment Squadron', code: 'FR' },
+                { id: '526th', name: '526th Bombardment Squadron', code: 'LF' },
+                { id: '527th', name: '527th Bombardment Squadron', code: 'FO' },
               ].map((squadron) => (
-                <div
+                <Link
                   key={squadron.id}
-                  className="bg-white p-6 shadow-md"
+                  href={`/history/squadrons/${squadron.id.toLowerCase()}`}
+                  className="bg-white p-6 shadow-md hover:shadow-lg transition-shadow group"
                 >
                   <div className="flex items-center gap-4">
-                    <div className="w-16 h-16 bg-[#1e3a5f] rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-[#d4a017] font-bold">{squadron.id.slice(0, 3)}</span>
+                    <div className="w-16 h-16 bg-[#1e3a5f] rounded-full flex items-center justify-center flex-shrink-0 group-hover:bg-[#2c5282] transition-colors">
+                      <span className="text-[#d4a017] font-bold">{squadron.code}</span>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-[#1e3a5f]" style={{ fontFamily: 'Georgia, serif' }}>
+                      <h3 className="font-semibold text-[#1e3a5f] group-hover:text-[#2c5282] transition-colors" style={{ fontFamily: 'Georgia, serif' }}>
                         {squadron.name}
                       </h3>
-                      <p className="text-sm text-[#666]">View crew members →</p>
+                      <p className="text-sm text-[#666] group-hover:text-[#1e3a5f] transition-colors">View squadron history →</p>
                     </div>
                   </div>
-                </div>
+                </Link>
               ))}
             </div>
 
